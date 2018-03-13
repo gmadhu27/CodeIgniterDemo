@@ -7,7 +7,5 @@ class Home extends CI_Controller
 
 		 $data['main_content'] = 'home';
         $this->load->view('layouts/main',$data);
-		//$data['welcome']='Welcome to our app';
-		//$this->load->view('home',$data);
 	}
 }

@@ -4,7 +4,10 @@ class Home extends CI_Controller
 	
 	public function index()
 	{
-		$data['welcome']='Welcome to our app';
-		$this->load->view('home',$data);
+
+		 $data['main_content'] = 'home';
+        $this->load->view('layouts/main',$data);
+		//$data['welcome']='Welcome to our app';
+		//$this->load->view('home',$data);
 	}
 }
